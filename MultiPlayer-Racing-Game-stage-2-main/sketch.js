@@ -19,9 +19,7 @@ function preload(){
   car3_img = loadImage("images/car3.png");
   car4_img = loadImage("images/car4.png");
   ground = loadImage("images/ground.png");
-  bronze_img = loadImage("images/bronze medal.png");
-  silver_img = loadImage("images/silver medal.png");
-  gold_img = loadImage("images/gold medal.png");
+  
   backgroundImg=loadImage("images/game-1.jpg")
 }
 
