@@ -5,7 +5,7 @@ var playerCount;
 var allPlayers;
 var distance = 0;
 var database;
-var leaderBoard =0;
+
 var form, player, game;
 var passedFinish;
 var cars, car1, car2, car3, car4;
@@ -43,10 +43,5 @@ function draw(){
     clear();
     game.play();
   }
-  if(leaderBoard === 4){
-    game.update(2);
-  }
-  if(gameState === 2 && leaderBoard ===4){
-    game.displayRanks();
-  }
+  
 }
