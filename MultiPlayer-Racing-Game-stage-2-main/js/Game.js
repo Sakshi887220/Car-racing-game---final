@@ -107,18 +107,5 @@ class Game {
     drawSprites();
   }
 
-  displayRanks(){
-    background("black");
-    camera.position.x =0;
-    camera.position.y = 0;
-     
-    imageMode(CENTER);
-    Player.getPlayerInfo();
-
-    image(bronze_img, displayWidth/-4, -100 + displayHeight/9, 200, 240);
-    image(silver_img, displayWidth/4, -100 + displayHeight/10, 225, 270);
-    image(gold_img, 0, -100, 250, 300);
-
-    
-}
+ 
 }
