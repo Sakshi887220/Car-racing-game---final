@@ -43,10 +43,7 @@ class Form {
     this.reset.mousePressed(()=>{
       player.updateCount(0);
       game.update(0);
-      database.ref('/').update({
-        players: null,
-        leaderBoard: 0
-      })
+      
     });
   }
 }
