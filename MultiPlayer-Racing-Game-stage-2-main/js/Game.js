@@ -45,7 +45,7 @@ class Game {
     form.hide();
     
     Player.getPlayerInfo();
-    player.getFinishedPlayers();
+    
     
     if(allPlayers !== undefined){
       background("#464646");
@@ -97,8 +97,6 @@ class Game {
     }
 
     if(player.distance > 460 && passedFinish===false){
-      Player.updateFinishedPlayers();
-      player.rank= leaderBoard;
       player.update();
       passedFinish= true;
      
